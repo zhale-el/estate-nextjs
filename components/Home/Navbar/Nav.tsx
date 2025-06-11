@@ -20,10 +20,11 @@ const Nav = ({ openNav }: Props) => {
     const handler = () => {
       if (window.scrollY >= 90) setNavBg(true);
       if (window.scrollY < 90) setNavBg(false);
-      window.addEventListener("scroll", handler);
-      return () => {
-        window.removeEventListener("scroll", handler);
-      };
+    };
+
+    window.addEventListener("scroll", handler);
+    return () => {
+      window.removeEventListener("scroll", handler);
     };
   }, []);
 
