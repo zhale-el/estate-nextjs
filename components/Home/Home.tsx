@@ -1,6 +1,7 @@
 "use client";
 
 import AppartmentType from "./AppartmenyType.tsx/AppartmentType";
+import BuildingFeature from "./BuildingFeature/BuildingFeature";
 import CityProperties from "./CityProperties/CityProperties";
 import Hero from "./Hero/Hero";
 import Properties from "./Properties/Properties";
@@ -12,6 +13,7 @@ const Home = () => {
       <AppartmentType />
       <Properties />
       <CityProperties />
+      <BuildingFeature />
     </div>
   );
 };
