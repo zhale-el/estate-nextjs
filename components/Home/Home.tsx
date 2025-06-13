@@ -5,6 +5,7 @@ import BuildingFeature from "./BuildingFeature/BuildingFeature";
 import CityProperties from "./CityProperties/CityProperties";
 import Hero from "./Hero/Hero";
 import Properties from "./Properties/Properties";
+import Reviews from "./Reviews/Reviews";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Properties />
       <CityProperties />
       <BuildingFeature />
+      <Reviews />
     </div>
   );
 };
