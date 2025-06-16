@@ -27,7 +27,37 @@ const Footer = () => {
             <FaInstagram className="w-6 h-6 text-pink-600" />
           </div>
         </div>
+        <div className="md:mx-auto">
+          <h1 className="footer__heading">Popular Search</h1>
+          <p className="footer__link">Apartment For Rent</p>
+          <p className="footer__link">Apartment Low To High</p>
+          <p className="footer__link">Offices For Buy</p>
+          <p className="footer__link">Offices For Rent</p>
+        </div>
+
+        <div className="lg:mx-auto">
+          <h1 className="footer__heading">Quick Link</h1>
+          <p className="footer__link">Terms pf use</p>
+          <p className="footer__link">Privacy Policy</p>
+          <p className="footer__link">Pricing Plans</p>
+          <p className="footer__link">Our Services</p>
+          <p className="footer__link">Contact Support</p>
+          <p className="footer__link">Careers</p>
+          <p className="footer__link">FAQS</p>
+        </div>
+
+        <div className="md:mx-auto">
+          <h1 className="footer__heading">Discover</h1>
+          <p className="footer__link">Miami</p>
+          <p className="footer__link">Los Angeles </p>
+          <p className="footer__link">Chicago </p>
+          <p className="footer__link"> New York</p>
+          <p className="footer__link"> London</p>
+        </div>
       </div>
+      <p className="text-center mt-4 text-base text-white opacity-70">
+        create by zhale-el
+      </p>
     </div>
   );
 };
