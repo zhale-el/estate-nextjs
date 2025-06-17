@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center mt-4 text-base text-white opacity-70">
-        create by zhale-el
+        &copy;Copyright 2025 by zhale-el
       </p>
     </div>
   );
